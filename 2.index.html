@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="script.js"></script>
+      <title>Validacion Campos</title>
+  </head>
+  <body>
+      <form name = "campos">
+
+          <h2>Ingrese nombre</h2> <input type="text" name="nombre" id="nombre">
+          <h2>Ingrese apellido</h2> <input type="text" name="apellido" id="apellido">
+          <h2>Ingrese direccion</h2> <input type="text" name="direccion" id="direccion">
+          <h2>Ingrese numero</h2><input type="number" name="telefono" id="telefono">
+          <h2>Ingrese direccion</h2> <input type="text" name="Email" id="email">
+          
+          <div>
+            <button type="button" onclick="validacionCampos()">Enviar</button>
+          </div>
+          <div id = "validacion"></div>
+        </form>
+  </body>
+</html>
